@@ -23,13 +23,14 @@ Or install it yourself as:
 
 ## Usage
 
+```ruby
 ip_meta = Ipgeobase.lookup('8.8.8.8')
 ip_meta.city # Ashburn
 ip_meta.country # United States
 ip_meta.countryCode # US
 ip.lat # 39.03
 ip.lon # -77.5
-
+```
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
