@@ -3,6 +3,7 @@
 require_relative "lib/ipgeobase/version"
 
 Gem::Specification.new do |spec|
+  spec.metadata["rubygems_mfa_required"] = "true"
   spec.name = "ipgeobase"
   spec.version = Ipgeobase::VERSION
   spec.authors = ["Serge"]
@@ -10,14 +11,14 @@ Gem::Specification.new do |spec|
 
   spec.summary = "Summary text"
   spec.description = "Description text"
-  spec.homepage = "https://github.com/Diopus/ruby-gem.git"
+  spec.homepage = "https://github.com/Diopus/Ipgeobase.git"
   spec.required_ruby_version = ">= 3.0.0"
 
   spec.metadata["allowed_push_host"] = spec.homepage
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/Diopus/ruby-gem.git"
-  spec.metadata["changelog_uri"] = "https://github.com/Diopus/ruby-gem.git"
+  spec.metadata["source_code_uri"] = "https://github.com/Diopus/Ipgeobase.git"
+  spec.metadata["changelog_uri"] = "https://github.com/Diopus/Ipgeobase.git"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
