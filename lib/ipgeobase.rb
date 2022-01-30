@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require "addressable/template"
-require "happymapper"
+require "nokogiri-happymapper"
 require "open-uri"
 
 require_relative "ipgeobase/version"
