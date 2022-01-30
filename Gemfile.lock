@@ -1,0 +1,70 @@
+PATH
+  remote: .
+  specs:
+    ipgeobase (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.8.0)
+      public_suffix (>= 2.0.2, < 5.0)
+    ast (2.4.2)
+    crack (0.4.5)
+      rexml
+    date (3.2.2)
+    hashdiff (1.0.1)
+    minitest (5.15.0)
+    nokogiri (1.13.1-x86_64-linux)
+      racc (~> 1.4)
+    nokogiri-happymapper (0.9.0)
+      nokogiri (~> 1.5)
+    open-uri (0.2.0)
+      stringio
+      time
+      uri
+    parallel (1.21.0)
+    parser (3.1.0.0)
+      ast (~> 2.4.1)
+    public_suffix (4.0.6)
+    racc (1.6.0)
+    rainbow (3.1.1)
+    rake (13.0.6)
+    regexp_parser (2.2.0)
+    rexml (3.2.5)
+    rubocop (1.25.0)
+      parallel (~> 1.10)
+      parser (>= 3.1.0.0)
+      rainbow (>= 2.2.2, < 4.0)
+      regexp_parser (>= 1.8, < 3.0)
+      rexml
+      rubocop-ast (>= 1.15.1, < 2.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 1.4.0, < 3.0)
+    rubocop-ast (1.15.1)
+      parser (>= 3.0.1.1)
+    ruby-progressbar (1.11.0)
+    stringio (3.0.1)
+    time (0.2.0)
+      date
+    unicode-display_width (2.1.0)
+    uri (0.11.0)
+    webmock (3.14.0)
+      addressable (>= 2.8.0)
+      crack (>= 0.3.2)
+      hashdiff (>= 0.4.0, < 2.0.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  addressable (~> 2.8.0)
+  ipgeobase!
+  minitest (~> 5.0)
+  nokogiri-happymapper (~> 0.9.0)
+  open-uri (~> 0.2.0)
+  rake (~> 13.0)
+  rubocop (~> 1.21)
+  webmock
+
+BUNDLED WITH
+   2.3.6
