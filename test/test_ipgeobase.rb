@@ -1,14 +1,14 @@
 # frozen_string_literal: true
 
+require "nokogiri"
+
 require_relative "test_helper"
 require_relative "../lib/ipgeobase"
 
 class TestIpgeobase < Minitest::Test
   def setup
     @test_ip = "83.169.216.199"
-    # rubocop:disable Layout/LineLength
-    @xml_sample = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<query>\n  <status>success</status>\n  <country>Russia</country>\n  <countryCode>RU</countryCode>\n  <region>SVE</region>\n  <regionName>Sverdlovsk Oblast</regionName>\n  <city>Baranchinskiy</city>\n  <zip>624315</zip>\n  <lat>58.1617</lat>\n  <lon>59.6991</lon>\n  <timezone>Asia/Yekaterinburg</timezone>\n  <isp>PJSC MegaFon</isp>\n  <org>OJSC MegaFon GPRS/UMTS Network</org>\n  <as>AS31224 PJSC MegaFon</as>\n  <query>83.169.216.199</query>\n</query>"
-    # rubocop:enable Layout/LineLength
+    @xml_sample = File.open("./test/fixtures/ip_api_reply.xml").read
   end
 
   def test_that_it_has_a_version_number

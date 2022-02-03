@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query>
+  <status>success</status>
+  <country>Russia</country>
+  <countryCode>RU</countryCode>
+  <region>SVE</region>
+  <regionName>Sverdlovsk Oblast</regionName>
+  <city>Baranchinskiy</city>
+  <zip>624315</zip>
+  <lat>58.1617</lat>
+  <lon>59.6991</lon>
+  <timezone>Asia/Yekaterinburg</timezone>
+  <isp>PJSC MegaFon</isp>
+  <org>OJSC MegaFon GPRS/UMTS Network</org>
+  <as>AS31224 PJSC MegaFon</as>
+  <query>83.169.216.199</query>
+</query>
