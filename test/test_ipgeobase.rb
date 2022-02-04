@@ -8,7 +8,7 @@ require_relative "../lib/ipgeobase"
 class TestIpgeobase < Minitest::Test
   def setup
     @test_ip = "83.169.216.199"
-    @xml_sample = File.open("./test/fixtures/ip_api_reply.xml").read
+    @xml_sample = File.read("./test/fixtures/ip_api_reply.xml")
   end
 
   def test_that_it_has_a_version_number
